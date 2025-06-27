@@ -78,43 +78,50 @@ href="https://github.com/MRSHABAN40/SHABAN-MD-V5/graphs/commit-activity"><img he
 
 **NOTE:-** ***✠ YOU CAN ALSO COPY THIS CODE IF CHANNEL CODE EXPIRED FOR FREE DEPLOYMENT OF SHABAN-MD ✠***
 
-```
-name: Node.js CI
+### (Termux WhatsApp Bot)
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
 
-jobs:
-  build:
+<p align="center">
+<img src="https://d.top4top.io/p_1837luigd0.gif" alt="GIF" width="128" height="128"/>
+</p>
+<p align="center">
+<a href="#"><img title="X BOT" src="https://img.shields.io/badge/Dark-Bot-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/MEHAJIBSHA"><img title="Author" src="https://img.shields.io/badge/Author-MrDevils-orange.svg?style=for-the-badge&logo=github"></a>
+<p align="center">
+<a href="https://github.com/MRSHABAN40/SHABAN-MD-V5"><img title="Author" src="https://img.shields.io/badge/Author-MrDevils-orange.svg?style=for-the-badge&logo=github"></a>
+</p>
 
-    runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [20.x]
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
-      run: npm install
+### (Install Termux)
+ 
+ 
+````bash
+pkg update
+pkg upgrade
+pkg install git -y
+pkg install nodejs -y
+pkg install ffmpeg -y
+pkg install imagemagick -y 
+````
 
-    - name: Start application
-      run: npm start
-```
 
--------
+ ### (Install The Dependencies)
+
+ 
+````bash
+git clone https://github.com/MEHAJIBSHA/SHABAN-MD-V5
+cd SHABAN-MD-V5
+npm install
+````
+
+````bash
+node .
+````
 
 
 ## ⚠️ _WARNING !_

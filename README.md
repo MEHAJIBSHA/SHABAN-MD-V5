@@ -96,6 +96,17 @@ href="https://github.com/MRSHABAN40/SHABAN-MD-V5/graphs/commit-activity"><img he
 
 
 
+### (Update The System)
+
+````bash
+apt update
+apt upgrade -y
+pkg update 
+pkg upgrade -y
+pkg install python
+pkg install python3
+pkg install git
+````
 
 ### (Install Termux)
  
